@@ -1,0 +1,9 @@
+[project]
+name = "chefcoin"
+description = "Chefcoin fungible token smart contract"
+authors = ["anthony"]
+telemetry = true
+
+[contracts.chefcoin]
+path = "contracts/chefcoin.clar"
+depends_on = []
